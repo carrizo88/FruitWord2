@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_margin="12dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    card_view:cardBackgroundColor="#E2E2E2"
+    card_view:cardCornerRadius="8dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imgViewFruta"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_weight="0.40"
+      />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.6"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvNombreFruta"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:layout_gravity="center"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvDescripcionFruta"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:layout_gravity="center"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvCantidad"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:layout_gravity="center"
+            android:text="" />
+    </LinearLayout>
+</LinearLayout>
+
+</android.support.v7.widget.CardView>
